@@ -16,7 +16,9 @@ class _LoginScreenState extends State<LoginScreen> {
             emailField(),
             passwordField(),
             Container(
-              margin: EdgeInsets.only(top: 25.0),
+              margin: EdgeInsets.only(
+                top: 25.0,
+              ),
             ),
             submitButton(),
           ],
